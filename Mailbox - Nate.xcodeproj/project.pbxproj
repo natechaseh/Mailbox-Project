@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA6ED21D1C763A3D00F314DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6ED21C1C763A3D00F314DB /* AppDelegate.swift */; };
+		AA6ED21F1C763A3D00F314DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6ED21E1C763A3D00F314DB /* ViewController.swift */; };
+		AA6ED2221C763A3D00F314DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6ED2201C763A3D00F314DB /* Main.storyboard */; };
+		AA6ED2241C763A3D00F314DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6ED2231C763A3D00F314DB /* Assets.xcassets */; };
+		AA6ED2271C763A3D00F314DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6ED2251C763A3D00F314DB /* LaunchScreen.storyboard */; };
+		AA6ED2321C763A3D00F314DB /* Mailbox___NateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6ED2311C763A3D00F314DB /* Mailbox___NateTests.swift */; };
+		AA6ED23D1C763A3D00F314DB /* Mailbox___NateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6ED23C1C763A3D00F314DB /* Mailbox___NateUITests.swift */; };
+		AA6ED24B1C763CD400F314DB /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6ED24A1C763CD400F314DB /* MailboxViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA6ED22E1C763A3D00F314DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6ED2111C763A3D00F314DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6ED2181C763A3D00F314DB;
+			remoteInfo = "Mailbox - Nate";
+		};
+		AA6ED2391C763A3D00F314DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6ED2111C763A3D00F314DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6ED2181C763A3D00F314DB;
+			remoteInfo = "Mailbox - Nate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA6ED2191C763A3D00F314DB /* Mailbox - Nate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mailbox - Nate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6ED21C1C763A3D00F314DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA6ED21E1C763A3D00F314DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA6ED2211C763A3D00F314DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA6ED2231C763A3D00F314DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA6ED2261C763A3D00F314DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA6ED2281C763A3D00F314DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6ED22D1C763A3D00F314DB /* Mailbox - NateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mailbox - NateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6ED2311C763A3D00F314DB /* Mailbox___NateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mailbox___NateTests.swift"; sourceTree = "<group>"; };
+		AA6ED2331C763A3D00F314DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6ED2381C763A3D00F314DB /* Mailbox - NateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mailbox - NateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6ED23C1C763A3D00F314DB /* Mailbox___NateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mailbox___NateUITests.swift"; sourceTree = "<group>"; };
+		AA6ED23E1C763A3D00F314DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6ED24A1C763CD400F314DB /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA6ED2161C763A3D00F314DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6ED22A1C763A3D00F314DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6ED2351C763A3D00F314DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA6ED2101C763A3D00F314DB = {
+			isa = PBXGroup;
+			children = (
+				AA6ED21B1C763A3D00F314DB /* Mailbox - Nate */,
+				AA6ED2301C763A3D00F314DB /* Mailbox - NateTests */,
+				AA6ED23B1C763A3D00F314DB /* Mailbox - NateUITests */,
+				AA6ED21A1C763A3D00F314DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA6ED21A1C763A3D00F314DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA6ED2191C763A3D00F314DB /* Mailbox - Nate.app */,
+				AA6ED22D1C763A3D00F314DB /* Mailbox - NateTests.xctest */,
+				AA6ED2381C763A3D00F314DB /* Mailbox - NateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA6ED21B1C763A3D00F314DB /* Mailbox - Nate */ = {
+			isa = PBXGroup;
+			children = (
+				AA6ED21C1C763A3D00F314DB /* AppDelegate.swift */,
+				AA6ED21E1C763A3D00F314DB /* ViewController.swift */,
+				AA6ED2201C763A3D00F314DB /* Main.storyboard */,
+				AA6ED24A1C763CD400F314DB /* MailboxViewController.swift */,
+				AA6ED2231C763A3D00F314DB /* Assets.xcassets */,
+				AA6ED2251C763A3D00F314DB /* LaunchScreen.storyboard */,
+				AA6ED2281C763A3D00F314DB /* Info.plist */,
+			);
+			path = "Mailbox - Nate";
+			sourceTree = "<group>";
+		};
+		AA6ED2301C763A3D00F314DB /* Mailbox - NateTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA6ED2311C763A3D00F314DB /* Mailbox___NateTests.swift */,
+				AA6ED2331C763A3D00F314DB /* Info.plist */,
+			);
+			path = "Mailbox - NateTests";
+			sourceTree = "<group>";
+		};
+		AA6ED23B1C763A3D00F314DB /* Mailbox - NateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA6ED23C1C763A3D00F314DB /* Mailbox___NateUITests.swift */,
+				AA6ED23E1C763A3D00F314DB /* Info.plist */,
+			);
+			path = "Mailbox - NateUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA6ED2181C763A3D00F314DB /* Mailbox - Nate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6ED2411C763A3D00F314DB /* Build configuration list for PBXNativeTarget "Mailbox - Nate" */;
+			buildPhases = (
+				AA6ED2151C763A3D00F314DB /* Sources */,
+				AA6ED2161C763A3D00F314DB /* Frameworks */,
+				AA6ED2171C763A3D00F314DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mailbox - Nate";
+			productName = "Mailbox - Nate";
+			productReference = AA6ED2191C763A3D00F314DB /* Mailbox - Nate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA6ED22C1C763A3D00F314DB /* Mailbox - NateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6ED2441C763A3D00F314DB /* Build configuration list for PBXNativeTarget "Mailbox - NateTests" */;
+			buildPhases = (
+				AA6ED2291C763A3D00F314DB /* Sources */,
+				AA6ED22A1C763A3D00F314DB /* Frameworks */,
+				AA6ED22B1C763A3D00F314DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6ED22F1C763A3D00F314DB /* PBXTargetDependency */,
+			);
+			name = "Mailbox - NateTests";
+			productName = "Mailbox - NateTests";
+			productReference = AA6ED22D1C763A3D00F314DB /* Mailbox - NateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA6ED2371C763A3D00F314DB /* Mailbox - NateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6ED2471C763A3D00F314DB /* Build configuration list for PBXNativeTarget "Mailbox - NateUITests" */;
+			buildPhases = (
+				AA6ED2341C763A3D00F314DB /* Sources */,
+				AA6ED2351C763A3D00F314DB /* Frameworks */,
+				AA6ED2361C763A3D00F314DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6ED23A1C763A3D00F314DB /* PBXTargetDependency */,
+			);
+			name = "Mailbox - NateUITests";
+			productName = "Mailbox - NateUITests";
+			productReference = AA6ED2381C763A3D00F314DB /* Mailbox - NateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA6ED2111C763A3D00F314DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nathaniel Hajian";
+				TargetAttributes = {
+					AA6ED2181C763A3D00F314DB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6822G8JCC4;
+					};
+					AA6ED22C1C763A3D00F314DB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6822G8JCC4;
+						TestTargetID = AA6ED2181C763A3D00F314DB;
+					};
+					AA6ED2371C763A3D00F314DB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6822G8JCC4;
+						TestTargetID = AA6ED2181C763A3D00F314DB;
+					};
+				};
+			};
+			buildConfigurationList = AA6ED2141C763A3D00F314DB /* Build configuration list for PBXProject "Mailbox - Nate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA6ED2101C763A3D00F314DB;
+			productRefGroup = AA6ED21A1C763A3D00F314DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA6ED2181C763A3D00F314DB /* Mailbox - Nate */,
+				AA6ED22C1C763A3D00F314DB /* Mailbox - NateTests */,
+				AA6ED2371C763A3D00F314DB /* Mailbox - NateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA6ED2171C763A3D00F314DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6ED2271C763A3D00F314DB /* LaunchScreen.storyboard in Resources */,
+				AA6ED2241C763A3D00F314DB /* Assets.xcassets in Resources */,
+				AA6ED2221C763A3D00F314DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6ED22B1C763A3D00F314DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6ED2361C763A3D00F314DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA6ED2151C763A3D00F314DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6ED21F1C763A3D00F314DB /* ViewController.swift in Sources */,
+				AA6ED21D1C763A3D00F314DB /* AppDelegate.swift in Sources */,
+				AA6ED24B1C763CD400F314DB /* MailboxViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6ED2291C763A3D00F314DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6ED2321C763A3D00F314DB /* Mailbox___NateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6ED2341C763A3D00F314DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6ED23D1C763A3D00F314DB /* Mailbox___NateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA6ED22F1C763A3D00F314DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6ED2181C763A3D00F314DB /* Mailbox - Nate */;
+			targetProxy = AA6ED22E1C763A3D00F314DB /* PBXContainerItemProxy */;
+		};
+		AA6ED23A1C763A3D00F314DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6ED2181C763A3D00F314DB /* Mailbox - Nate */;
+			targetProxy = AA6ED2391C763A3D00F314DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA6ED2201C763A3D00F314DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6ED2211C763A3D00F314DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA6ED2251C763A3D00F314DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6ED2261C763A3D00F314DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA6ED23F1C763A3D00F314DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA6ED2401C763A3D00F314DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA6ED2421C763A3D00F314DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mailbox - Nate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nathanielhajian.Mailbox---Nate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA6ED2431C763A3D00F314DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mailbox - Nate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nathanielhajian.Mailbox---Nate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA6ED2451C763A3D00F314DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mailbox - NateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nathanielhajian.Mailbox---NateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mailbox - Nate.app/Mailbox - Nate";
+			};
+			name = Debug;
+		};
+		AA6ED2461C763A3D00F314DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mailbox - NateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nathanielhajian.Mailbox---NateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mailbox - Nate.app/Mailbox - Nate";
+			};
+			name = Release;
+		};
+		AA6ED2481C763A3D00F314DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mailbox - NateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nathanielhajian.Mailbox---NateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mailbox - Nate";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AA6ED2491C763A3D00F314DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mailbox - NateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nathanielhajian.Mailbox---NateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mailbox - Nate";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA6ED2141C763A3D00F314DB /* Build configuration list for PBXProject "Mailbox - Nate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6ED23F1C763A3D00F314DB /* Debug */,
+				AA6ED2401C763A3D00F314DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6ED2411C763A3D00F314DB /* Build configuration list for PBXNativeTarget "Mailbox - Nate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6ED2421C763A3D00F314DB /* Debug */,
+				AA6ED2431C763A3D00F314DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA6ED2441C763A3D00F314DB /* Build configuration list for PBXNativeTarget "Mailbox - NateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6ED2451C763A3D00F314DB /* Debug */,
+				AA6ED2461C763A3D00F314DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA6ED2471C763A3D00F314DB /* Build configuration list for PBXNativeTarget "Mailbox - NateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6ED2481C763A3D00F314DB /* Debug */,
+				AA6ED2491C763A3D00F314DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA6ED2111C763A3D00F314DB /* Project object */;
+}
